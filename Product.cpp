@@ -1,5 +1,5 @@
 //
-// Created by PC on 23/11/2020.
+// Created by cristian suancha on 23/11/2020.
 //
 
 #include "Product.h"
@@ -10,10 +10,12 @@ Product::Product(const std::string &idProduct, const std::string &description, d
 Product::Product() {}
 
 const std::string &Product::getIdProduct() const {
+    //esto es un comentario
     return idProduct;
 }
 
 void Product::setIdProduct(const std::string &idProduct) {
+    //esto es otro comentario
     Product::idProduct = idProduct;
 }
 
