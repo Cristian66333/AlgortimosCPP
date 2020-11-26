@@ -1,5 +1,5 @@
 //
-// Created by PC on 23/11/2020.
+// Created by cristian suancha on 23/11/2020.
 //
 
 #include "Product.h"
@@ -14,6 +14,7 @@ const std::string &Product::getIdProduct() const {
 }
 
 void Product::setIdProduct(const std::string &idProduct) {
+    //this is a method that returns idProduct
     Product::idProduct = idProduct;
 }
 
