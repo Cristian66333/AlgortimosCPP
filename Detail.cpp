@@ -1,5 +1,5 @@
 //
-// Created by PC on 23/11/2020.
+// Created by cristian suancha on 23/11/2020.
 //
 
 #include "Detail.h"
