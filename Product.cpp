@@ -1,0 +1,52 @@
+//
+// Created by PC on 23/11/2020.
+//
+
+#include "Product.h"
+
+Product::Product(const std::string &idProduct, const std::string &description, double value, short stock) : idProduct(
+        idProduct), description(description), value(value), stock(stock) {}
+
+Product::Product() {}
+
+const std::string &Product::getIdProduct() const {
+    return idProduct;
+}
+
+void Product::setIdProduct(const std::string &idProduct) {
+    Product::idProduct = idProduct;
+}
+
+const std::string &Product::getDescription() const {
+    return description;
+}
+
+void Product::setDescription(const std::string &description) {
+    Product::description = description;
+}
+
+double Product::getValue() const {
+    return value;
+}
+
+void Product::setValue(double value) {
+    Product::value = value;
+}
+
+short Product::getStock() const {
+    return stock;
+}
+
+void Product::setStock(short stock) {
+    Product::stock = stock;
+}
+
+std::ostream &operator<<(std::ostream &os, const Product &product) {
+    os << "idProduct: " << product.idProduct << " description: " << product.description << " value: " << product.value
+       << " stock: " << product.stock;
+    return os;
+}
+
+Product::~Product() {
+
+}

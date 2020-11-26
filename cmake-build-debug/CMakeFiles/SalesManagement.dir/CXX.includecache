@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/c/Users/PC/CLionProjects/SalesManagement/Bill.h
+string
+-
+vector
+-
+Detail.h
+/cygdrive/c/Users/PC/CLionProjects/SalesManagement/Detail.h
+
+/cygdrive/c/Users/PC/CLionProjects/SalesManagement/Detail.h
+Product.h
+/cygdrive/c/Users/PC/CLionProjects/SalesManagement/Product.h
+
+/cygdrive/c/Users/PC/CLionProjects/SalesManagement/Product.h
+string
+-
+ostream
+-
+
+/cygdrive/c/Users/PC/CLionProjects/SalesManagement/ServiceSales.cpp
+ServiceSales.h
+/cygdrive/c/Users/PC/CLionProjects/SalesManagement/ServiceSales.h
+
+/cygdrive/c/Users/PC/CLionProjects/SalesManagement/ServiceSales.h
+Product.h
+/cygdrive/c/Users/PC/CLionProjects/SalesManagement/Product.h
+Bill.h
+/cygdrive/c/Users/PC/CLionProjects/SalesManagement/Bill.h
+
