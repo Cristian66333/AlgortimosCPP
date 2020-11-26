@@ -17,6 +17,11 @@ const std::string &Product::getIdProduct() const {
 void Product::setIdProduct(const std::string &idProduct) {
     //esto es otro comentario
     Product::idProduct = idProduct;
+    //esto es otro comentario
+    //esto es otro comentario
+    //esto es otro comentario
+    //esto es otro comentario
+    //esto es otro comentario
 }
 
 const std::string &Product::getDescription() const {
